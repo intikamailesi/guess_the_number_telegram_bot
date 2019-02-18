@@ -68,7 +68,6 @@ def question(update, context):
     reply_keyboard = [['меньше'], ['больше/равно']]
     reply_keyboard_2 = [['правильно'],['неправильно']]
     text = update.message.text
-    print(context.chat_data)
 
     if len(context.chat_data['rng']) == 1:
         update.message.reply_text(
