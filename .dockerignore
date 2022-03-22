@@ -5,4 +5,4 @@ Dockerfile
 venv/
 *.pyc
 README.md
-Pipfile*
+requirements.txt
