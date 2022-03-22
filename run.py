@@ -22,7 +22,7 @@ import os
 from telegram import (ReplyKeyboardMarkup, ReplyKeyboardRemove)
 from telegram.ext import (Updater, CommandHandler, ConversationHandler, MessageHandler, Filters)
 
-token = os.environ.get('BOT_TOKEN', '')
+token = os.environ.get('BOT_TOKEN', '5124929855:AAGHPfPqP8e1K-h7oX2cpD7R1XAhPDrlVsk')
 
 # Enable logging
 
